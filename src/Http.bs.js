@@ -3,32 +3,18 @@
 
 var Http = require("http");
 
-function IncomingMessage_000(prim, prim$1, prim$2) {
-  prim.on((function () {
-            switch (prim$1) {
-              case 758940234 : 
-                  return "data";
-              
-            }
-          })(), prim$2);
-  return /* () */0;
-}
-
-function IncomingMessage_001(prim, prim$1, prim$2) {
-  prim.on((function () {
-            switch (prim$1) {
-              case 758940234 : 
-                  return "data";
-              
-            }
-          })(), prim$2);
-  return /* () */0;
-}
-
-var IncomingMessage = /* module */[
-  IncomingMessage_000,
-  IncomingMessage_001
-];
+var IncomingMessage = /* module */[/* on */(function (prim, prim$1) {
+      prim.on((function () {
+                switch (prim$1[0]) {
+                  case 1058556124 : 
+                      return "end";
+                  case -1033677270 : 
+                      return "data";
+                  
+                }
+              })(), prim$1[1]);
+      return /* () */0;
+    })];
 
 var Client = /* module */[/* get */(function (prim, prim$1) {
       Http.get(prim, prim$1);
